@@ -30,6 +30,17 @@ public void testSlow() {
       public void testCalc1() {
         assertEquals("Result - Fail", 9, 9);
       }
-	
+	@Test	
+      public void Test111() {
+Calcmul pp=new Calcmul();
+int res=pp.mul();
+        assertEquals("Result - Fail", 18, res);
+      }
+	@Test	
+      public void Test1111() {
+Calculator pp1=new Calculator();
+int res1=pp1.add();
+        assertEquals("Result - Fail", 9, res1);
+      }
 	
     }
