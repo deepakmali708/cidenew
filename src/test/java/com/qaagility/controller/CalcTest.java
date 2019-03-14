@@ -6,15 +6,18 @@ import static org.junit.Assert.assertEquals;
  
 public class CalcTest {
 
-      public void testSlow() {
+	@Test
+public void testSlow() {
         System.out.println("slow");
       }
 
-      public void testSlower() {
+      @Test
+	public void testSlower() {
         System.out.println("slower");
       }
 
-      public void testFast() {
+      @Test
+	public void testFast() {
         System.out.println("fast-updated");
       }
 
