@@ -7,17 +7,17 @@ import static org.junit.Assert.assertEquals;
  
 public class CalcTest {
 
-	@Test
+	
 public void testSlow() {
         System.out.println("slow");
       }
 
-      @Test
+      
 	public void testSlower() {
         System.out.println("slower");
       }
 
-      @Test
+      
 	public void testFast() {
         System.out.println("fast-updated");
       }
